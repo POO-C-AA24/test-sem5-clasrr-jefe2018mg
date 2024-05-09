@@ -11,7 +11,7 @@ public class varriante1 {
             i++;
             System.out.println("Desea mas terreno (S/N)?: ");
             opc=tc.next();
-            if(opc.equals("N")||(i>arrayTerrenos.length))break;
+            if(opc.equals("N")||(i>=arrayTerrenos.length))break;
         }
     }
 }
