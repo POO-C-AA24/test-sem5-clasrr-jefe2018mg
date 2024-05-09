@@ -19,7 +19,7 @@ public class testTerreno {
         arrayTerreno[0] = t1;
         arrayTerreno[0] = t2;
         arrayTerreno[0] = t3;
-        for (int i = 0; i < arrayTerreno.length; i++) {
+        for(int i = 0; i < arrayTerreno.length; i++) {
             arrayTerreno[i].calcularArea();
             arrayTerreno[i].calcularCostoFinal();
             System.out.println(arrayTerreno[i]);
